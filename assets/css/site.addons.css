@@ -1,0 +1,12 @@
+.logo{
+	width: 80px;
+}
+.modal-body{
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width: 480px) {
+	.width-60,.width-40{
+		width: 100%;
+	}
+}
