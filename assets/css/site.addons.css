@@ -5,6 +5,18 @@
 	display: flex;
 	flex-direction: column;
 }
+.box.box--image.box--image--full-image .box__image:before{
+	background: none;
+}
+#partners img{
+	max-width: 300px;
+}
+#features{
+	max-height: 690px;
+}
+#features .block .block__title{
+	margin-bottom: 5rem;
+}
 @media (max-width: 480px) {
 	.width-60,.width-40{
 		width: 100%;
