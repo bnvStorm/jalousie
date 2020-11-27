@@ -1,24 +1,38 @@
 .logo{
 	width: 80px;
 }
-.modal-body{
-	display: flex;
-	flex-direction: column;
+.block{
+	padding-top: 5rem;
+	padding-bottom: 2.5rem;
 }
+
 .box.box--image.box--image--full-image .box__image:before{
 	background: none;
+}
+.box.box--image{
+	height: 60rem;
 }
 #partners img{
 	max-width: 300px;
 }
 #features{
-	max-height: 690px;
+/*	max-height: 890px;*/
+}
+.block .block__title{
+	margin-bottom: 5rem;
 }
 #features .block .block__title{
 	margin-bottom: 5rem;
+}
+.block .block__wrapper{
+	padding-top: 2.5rem;
 }
 @media (max-width: 480px) {
 	.width-60,.width-40{
 		width: 100%;
 	}
+	.modal-body{
+	display: flex;
+	flex-direction: column;
+}
 }
