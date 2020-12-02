@@ -15,9 +15,6 @@
 #partners img{
 	max-width: 300px;
 }
-#features{
-/*	max-height: 890px;*/
-}
 .block .block__title{
 	margin-bottom: 5rem;
 }
@@ -27,12 +24,39 @@
 .block .block__wrapper{
 	padding-top: 2.5rem;
 }
+#hero .hero__caption h1{
+	text-align: center;
+}
+.slider-nav{
+	right: 50%;
+	bottom: 2rem;
+	background: #fff;
+}
+.modal-content{
+	flex-direction:row;
+}
+.modal-body{
+	max-width: 60%;
+}
+.modal .modal-header {
+    height: auto;
+}
+.modal .modal__carousel div{
+	 background-size: cover;
+}
+.modal.fade .modal-dialog,.modal.show .modal-content{
+	max-height: 700px;
+	height: 100%;
+}
+h2{
+	    font-size: 4.6rem;
+}
 @media (max-width: 480px) {
 	.width-60,.width-40{
 		width: 100%;
 	}
 	.modal-body{
-	display: flex;
-	flex-direction: column;
-}
+		display: flex;
+		flex-direction: column;
+	}
 }
