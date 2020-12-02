@@ -1,8 +1,8 @@
 
 <?php 
-var_dump($_POST);
+// var_dump($_POST);
 if(isset($_POST['submit'])){
-    $to = "bnvstorm@gmail.com"; // Здесь нужно написать e-mail, куда будут приходить письма
+    $to = "vostok_zhalyuzi@mail.ru"; // Здесь нужно написать e-mail, куда будут приходить письма
     $from = "mail@vostok-zhalyuzi.kz"; // this is the sender's Email address  $_POST['message']@vostok-zhalyuzikz$$N
     // $name = $_POST['name']; 
     $subject = "Форма отправки сообщений с сайта";
