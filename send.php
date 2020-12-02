@@ -15,13 +15,13 @@ if(isset($_POST['submit'])){
     var_dump($test);
    // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender - Отключено!
     echo "Сообщение отправлено. Спасибо Вам " . $email . ", мы скоро свяжемся с Вами.";
-	echo "<br /><br /><a href='http://jalousie/'>Вернуться на сайт.</a>";
+	echo "<br /><br /><a href='http://vostok-zhalyuzi.kz/'>Вернуться на сайт.</a>";
 
 }
 
 ?>
 <!--Переадресация на главную страницу сайта, через 3 секунды-->
 <script language="JavaScript" type="text/javascript">
-function changeurl(){eval(self.location="http://jalousie/");}
+function changeurl(){eval(self.location="http://vostok-zhalyuzi.kz/");}
 window.setTimeout("changeurl();",2000);
 </script>

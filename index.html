@@ -114,12 +114,12 @@
                 <div class="container">
                     <div class="block__wrapper">
                         <div class="block__title">
-                            <h2>Оставить заявку</h2>
+                            <h2 style="text-align:center;">Оставить заявку</h2>
                         </div>
                         <!--end block-title-->
                         <div class="row">
                             <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
-                                <h4 style="text-align:center;">Менеджер по продажам</h4>
+                                <h4 style="text-align:left;">Менеджер по продажам</h4>
                                 <div class="person">
                                     <div class="person__image">
                                         <div class="img-into-bg" style="background-image: url(assets/img/author-01.jpg);
@@ -129,151 +129,94 @@
                                 </div>
                                 <div class="person__description">
                                     <h5>Бочарникова Елена</h5>
-                                    <figure>
-                                        <label>Телефон:</label>
-                                        <div><a href="tel:+77779908003">+7 777 990 8003</a></div>
-                                    </figure>
-                                    <figure>
-                                        <label>E-mail:</label>
-                                        <div>
-                                            <a href="mailto:vostok_zhalyuzi@mail.ru">vostok_zhalyuzi@mail.ru</a>
-                                        </div>
-                                    </figure>
-                                    <figure>
-                                        <label>Whatsapp:</label>
-                                        <div><a href="https://wa.me/+77779908003">+7 (777) 990 80 03</a></div>
-                                    </figure>
+
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
-                            <h4>Форма для обратной связи</h4>
+                           <figure >
+                            <label>Телефон:</label>
+                            <div><a href="tel:+77779908003">+7 777 990 8003</a></div>
+                        </figure>
+                        <figure>
+                            <label>E-mail:</label>
+                            <div>
+                                <a href="mailto:vostok_zhalyuzi@mail.ru">vostok_zhalyuzi@mail.ru</a>
+                            </div>
+                        </figure>
+                        <figure>
+                            <label>Whatsapp:</label>
+                            <div><a href="https://wa.me/+77779908003">+7 (777) 990 80 03</a></div>
+                        </figure>
 
-                            <form id="form-contact" method="post" class="form clearfix" action="send.php">
-                                <div class="row">
-                                    <div class="col-md-12 col-sm-12">
-                                        <div class="form-group">
-                                            <label for="form-contact-name">Ваш номер телефона</label>
-                                            <input type="text" class="form-control" id="email" name="email" placeholder="Ваше имя" required>
-                                        </div>
-                                        <!--end form-group -->
-                                    </div>
-                                    <!--end col-md-6 col-sm-6 -->
-<!--                                         <div class="col-md-6 col-sm-6">
-                                            <div class="form-group">
-                                                <label for="form-contact-email">Your Email</label>
-                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
-                                            </div>
-                                         
-                                        </div>
-                                    -->                                        <!--end col-md-6 col-sm-6 -->
-                                </div>
-                                <!--end row -->
-                 <!--                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="form-contact-message">Ваше сообщение</label>
-                                            <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Ваше сообщение" required></textarea>
-                                        </div>
-                                    
-                                    </div>
-                                 
-                                </div> -->
-                                <!--end row -->
-                                <div class="form-group clearfix">
-                                    <button type="submit" class="btn pull-right btn-primary btn-framed" id="form-contact-submit">Отправить</button>
-                                </div>
-                                <!--end form-group -->
-                                <div class="form-contact-status"></div>
-                            </form>
-                            <!--end form-contact -->
+                    </div>
+                    <!--end col-xl-7-->
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <h4 style="text-align:center;">Оставьте заявку на звонок</h4>
+
+
+                     <form id="contactform" name="contact" action="send.php" method="post">
+                        <div class="row">
+                            <input type="tel" name="email" id="email" class="t-input js-tilda-rule " tabindex="2" placeholder="+7 777 123 45 67" class="form-control" required>
                         </div>
-                        <!--end col-xl-7-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end block__wrapper-->
-            </div>
-            <!--end container-->
-            <div class="background-wrapper">
-                <div class="background background--image background--repeat-repeat opacity-50">
-                    <img src="assets/img/pattern-dot.png" alt="">
+                        <div class="center">
+                            <input type="submit" id="submitbtn"  class="btn pull-right btn-primary btn-framed" name="submit" tabindex="5" value="ЗАКАЗАТЬ ЗВОНОК">
+
+                        </div>
+                    </form>
+                    <!--end form-contact -->
                 </div>
             </div>
-            <!--end background-->
-        </section>
-        <!--end #section.block-->
-        <section class="block" id="features">
-            <div class="container">
-                <div class="block__wrapper">
-                    <div class="block__title text-center">
-                        <h2>Витрина</h2>
-                    </div>
-                    <!--end block-title-->
+            <!--end row-->
+        </div>
+        <!--end block__wrapper-->
+    </div>
+    <!--end container-->
+    <div class="background-wrapper">
+        <div class="background background--image background--repeat-repeat opacity-50">
+            <img src="assets/img/pattern-dot.png" alt="">
+        </div>
+    </div>
+    <!--end background-->
+</section>
+<!--end #section.block-->
+<section class="block" id="features">
+    <div class="container">
+        <div class="block__wrapper">
+            <div class="block__title text-center">
+                <h2>Витрина</h2>
+            </div>
+            <!--end block-title-->
 
-                    <div class="row">
+            <div class="row">
 
-                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature3" data-scroll-reveal="enter bottom and move 10px after">
-                            <div class="box__wrapper">
-                                <div class="box__header">
-                                    <div class="box__image img-into-bg">
-                                        <img src="assets/img/gallery/jal_02.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="box__content">
-                                    <!-- <h4>Жалюзи 2</h4> -->
-                                    <h5>Подробнее</h5>
-                                </div>
+             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature3" data-scroll-reveal="enter bottom and move 10px after">
+                    <div class="box__wrapper">
+                        <div class="box__header">
+                            <div class="box__image img-into-bg">
+                                <img src="assets/img/gallery/jal_02.jpg" alt="">
                             </div>
-                            <!--end box__wrapper-->
-                        </a>
-                        <!--end box-image-->
+                        </div>
+                        <div class="box__content">
+                            <!-- <h4>Жалюзи 2</h4> -->
+                            <h5>Подробнее</h5>
+                        </div>
                     </div>
-                    <!--end col-xl-4-->
+                    <!--end box__wrapper-->
+                </a>
+                <!--end box-image-->
+            </div>
+            <!--end col-xl-4-->
 
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
-                        <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature3" data-scroll-reveal="enter right and move 10px">
-                            <div class="box__wrapper">
-                                <div class="box__header">
-                                    <div class="box__image img-into-bg">
-                                        <img src="assets/img/gallery/jal_03.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="box__content">
-                                   <!--  <h4>Жалюзи 3</h4> -->
-                                   <h5>Подробнее</h5>
-                               </div>
-                           </div>
-                           <!--end box__wrapper-->
-                       </a>
-                       <!--end box-image-->
-                   </div>
-                   <!--end col-xl-4-->
-                   <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
-                    <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature3" data-scroll-reveal="enter right and move 10px">
-                        <div class="box__wrapper">
-                            <div class="box__header">
-                                <div class="box__image img-into-bg">
-                                    <img src="assets/img/gallery/jal_04.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="box__content">
-                               <!--  <h4>Жалюзи 3</h4> -->
-                               <h5>Подробнее</h5>
-                           </div>
-                       </div>
-                       <!--end box__wrapper-->
-                   </a>
-                   <!--end box-image-->
-               </div>
-               <!--end col-xl-4-->
-               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
                 <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature3" data-scroll-reveal="enter right and move 10px">
                     <div class="box__wrapper">
                         <div class="box__header">
                             <div class="box__image img-into-bg">
-                                <img src="assets/img/gallery/jal_05.jpg" alt="">
+                                <img src="assets/img/gallery/jal_03.jpg" alt="">
                             </div>
                         </div>
                         <div class="box__content">
@@ -287,11 +230,11 @@
            </div>
            <!--end col-xl-4-->
            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
-            <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature4" data-scroll-reveal="enter right and move 10px">
+            <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature3" data-scroll-reveal="enter right and move 10px">
                 <div class="box__wrapper">
                     <div class="box__header">
                         <div class="box__image img-into-bg">
-                            <img src="assets/img/gallery/jal_06.jpg" alt="">
+                            <img src="assets/img/gallery/jal_04.jpg" alt="">
                         </div>
                     </div>
                     <div class="box__content">
@@ -305,11 +248,11 @@
        </div>
        <!--end col-xl-4-->
        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
-        <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature4" data-scroll-reveal="enter right and move 10px">
+        <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature3" data-scroll-reveal="enter right and move 10px">
             <div class="box__wrapper">
                 <div class="box__header">
                     <div class="box__image img-into-bg">
-                        <img src="assets/img/gallery/jal_07.jpg" alt="">
+                        <img src="assets/img/gallery/jal_05.jpg" alt="">
                     </div>
                 </div>
                 <div class="box__content">
@@ -323,6 +266,42 @@
    </div>
    <!--end col-xl-4-->
    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
+    <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature4" data-scroll-reveal="enter right and move 10px">
+        <div class="box__wrapper">
+            <div class="box__header">
+                <div class="box__image img-into-bg">
+                    <img src="assets/img/gallery/jal_06.jpg" alt="">
+                </div>
+            </div>
+            <div class="box__content">
+               <!--  <h4>Жалюзи 3</h4> -->
+               <h5>Подробнее</h5>
+           </div>
+       </div>
+       <!--end box__wrapper-->
+   </a>
+   <!--end box-image-->
+</div>
+<!--end col-xl-4-->
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
+    <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature4" data-scroll-reveal="enter right and move 10px">
+        <div class="box__wrapper">
+            <div class="box__header">
+                <div class="box__image img-into-bg">
+                    <img src="assets/img/gallery/jal_07.jpg" alt="">
+                </div>
+            </div>
+            <div class="box__content">
+               <!--  <h4>Жалюзи 3</h4> -->
+               <h5>Подробнее</h5>
+           </div>
+       </div>
+       <!--end box__wrapper-->
+   </a>
+   <!--end box-image-->
+</div>
+<!--end col-xl-4-->
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
     <a href="#" class="box box--image box--image--full-image" data-toggle="modal" data-target="#modal-feature4" data-scroll-reveal="enter right and move 10px">
         <div class="box__wrapper">
             <div class="box__header">
