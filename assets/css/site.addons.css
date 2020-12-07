@@ -5,12 +5,19 @@
 	padding-top: 5rem;
 	padding-bottom: 2.5rem;
 }
-
+.c-flex{
+	display: flex;
+	justify-content: center;
+}
 .box.box--image.box--image--full-image .box__image:before{
 	background: none;
 }
-.box.box--image{
-	height: 60rem;
+.box.box--image,#features .col-sm-12{
+	height: 48rem;
+	max-width: 270px;
+}
+#features .row{
+	justify-content: center;
 }
 #partners img{
 	max-width: 300px;
@@ -28,9 +35,17 @@
 	text-align: center;
 }
 .slider-nav{
-	right: 50%;
-	bottom: 2rem;
+	right: 45%;
+	bottom: 8rem;
 	background: #fff;
+}
+#hero .hero__background{
+	top:125px;
+}
+.owl-next:hover, .owl-prev:hover {
+/*    background-color: #02006B;*/
+    color: #fff;
+/*    opacity: 1;*/
 }
 .modal-content{
 	flex-direction:row;
@@ -76,6 +91,15 @@ h2{
     width: 100%;
     justify-content: center;
     margin-top: 1rem;
+}
+.background--image, .img-into-bg{
+	background-size: contain;
+}
+.person .img-into-bg{
+	background-size: cover;
+}
+#text-image-block img{
+	max-width: 230px;
 }
 @media (max-width: 480px) {
 	.width-60,.width-40{
