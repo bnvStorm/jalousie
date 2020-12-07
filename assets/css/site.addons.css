@@ -19,6 +19,9 @@
 #features .row{
 	justify-content: center;
 }
+#partners{
+	padding-top: 0;
+}
 #partners img{
 	max-width: 300px;
 }
@@ -101,6 +104,9 @@ h2{
 #text-image-block img{
 	max-width: 230px;
 }
+#location .block__wrapper{
+	padding-bottom: 0;
+} 
 @media (max-width: 480px) {
 	.width-60,.width-40{
 		width: 100%;
