@@ -279,3 +279,8 @@ function getScrollBarWidth () {
     $outer.remove();
     return 100 - widthWithScroll;
 }
+    $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });
