@@ -6,10 +6,6 @@
 	padding-top: 5rem;
 	padding-bottom: 2.5rem;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of b4118b1... upd img
 .navbar-brand{
 	display: flex;
 	align-items: center;
@@ -17,13 +13,9 @@
 .navbar-brand span{
 	display: block;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 20px;
 	color: rgba(0, 0, 0, 0.9);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of b4118b1... upd img
 .c-flex{
 	display: flex;
 	justify-content: center;
@@ -65,7 +57,9 @@
 	top:125px;
 }
 .owl-next:hover, .owl-prev:hover {
-	color: #fff;
+/*    background-color: #02006B;*/
+    color: #fff;
+/*    opacity: 1;*/
 }
 .modal-content{
 	flex-direction:row;
@@ -74,24 +68,24 @@
 	max-width: 60%;
 }
 .modal .modal-header {
-	height: auto;
+    height: auto;
 }
 .modal .modal__carousel div{
-	background-size: cover;
+	 background-size: cover;
 }
 .modal.fade .modal-dialog,.modal.show .modal-content{
 	max-height: 700px;
 	height: 100%;
 }
 #contact .container {
-	max-width: 710px;
+    max-width: 710px;
 }
 .person {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 label{
 	font-weight: bold;
@@ -104,13 +98,13 @@ h4{
 	margin-top: 1rem;
 }
 h2{
-	font-size: 4.6rem;
+	    font-size: 4.6rem;
 }
 .center{
 	display: flex;
-	width: 100%;
-	justify-content: center;
-	margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
 }
 .background--image, .img-into-bg{
 	background-size: contain;
@@ -118,53 +112,76 @@ h2{
 .person .img-into-bg{
 	background-size: cover;
 }
+#text-image-block p{
+	line-height: 4rem;
+font-size: 3rem;
+}
 #text-image-block img{
 	max-width: 230px;
 }
 #location .block__wrapper{
 	padding-bottom: 0;
-<<<<<<< HEAD
-=======
-} 
-.ment{
-	text-align:left;
->>>>>>> parent of b4118b1... upd img
+}.slider{
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
 }
-@media (max-width: 480px) {
-	.ment{text-align: center;}
-	.person{
-		align-items: center;
-	}
-	figure{
-		text-align: center;
-	}
-	#email{
-		max-width: 300px;
-	}
-	#text-image-block{
-		padding-top: 0;
-	}
-	.align-items-center{
-		flex-direction: column;
-	}
-	#partners a{
-		margin-bottom: 20px;
-	}
-	#contactform .row{
-		justify-content: center;
-	}
-	.text-align-right{
-		text-align: center;
-	}
-	.background--image, .img-into-bg{
-		background-size: cover;
-	}
-	.slider-nav{
+.slider a{
+	max-width: 300px;
+	max-height: 153px;
+	    /* max-height: 120px; */
+	height: 100%;
+}
+.slider a img{
+	margin: 0 auto;
+}
+@media (max-width:1024px) {
+	.navbar-brand span{
 		display: none;
 	}
-	#hero .hero__background {
-		top: 75px;
+}
+@media (max-width: 480px) {
+	#partners img{
+		max-height: 120px;
 	}
+.ment{
+	text-align: center;
+}
+.person{
+	align-items: center;
+}
+figure{
+	text-align: center;
+}
+#email{
+	max-width: 300px;
+}
+#text-image-block{
+	padding-top: 0;
+}
+.align-items-center{
+	flex-direction: column;
+}
+#partners a{
+	margin-bottom: 20px;
+}
+#contactform .row{
+	justify-content: center;
+}
+.text-align-right{
+	text-align: center;
+}
+.background--image, .img-into-bg{
+	background-size: cover;
+}
+.slider-nav{
+	display: none;
+}
+#hero .hero__background {
+	top: 75px;
+}
 	.width-60,.width-40{
 		width: 100%;
 	}
@@ -174,14 +191,17 @@ h2{
 		max-width: 100%;
 	}
 	.modal .modal-header {
-		height: 45rem; 
+		height: 45rem;
 	}
 	.modal-content {
 		flex-direction: column;
 	}
 	.modal.fade .modal-dialog, .modal.show .modal-content {
 		max-height: 100%;
-		height: 100%;
+		height: auto;
+	}
+	.modal .modal-header{
+		height: 0;
 	}
 	.modal .modal__carousel{
 		display: none;
