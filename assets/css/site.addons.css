@@ -174,7 +174,7 @@ figure{
 	text-align: center;
 }
 .background--image, .img-into-bg{
-	background-size: cover;
+	background-size: contain;
 }
 .slider-nav{
 	display: none;
@@ -210,6 +210,7 @@ figure{
 		padding-top: 0 !important;
 	}
 	.navbar-brand span{
-		display: none;
+		display: flex;
+		font-size: 11px;
 	}
 }
